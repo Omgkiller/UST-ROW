@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>HKUST Rowing Club: Contact Us</title>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-social/bootstrap-social.css">
+    <link href="../css/styles.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../img/logo.png">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <button class = "navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+            <span class = "navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand mr-auto" href="./index.html"><img src="../img/logo.png" height="30" width="41" alt="logo"></a>
+        <div class = "collapse navbar-collapse" id="Navbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="./fame.html">Hall of Fame</a></li>
+                <li class="nav-item"><a class="nav-link" href="./past_results.html">Past Results</a></li>
+                <li class="nav-item active"><a class="nav-link" href="./contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row row-header">
+                <div class = "col-12 offset-md-1 col-sm">
+                    <h2>CONTACT US</h2>
+                    <br>
+                </div>
+                <img src="../img/Banner_Contact Us.jpg" class="img-fluid" id="image-background2">
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row row-content">
+           <div class="col-12">
+              <h3>Send us your Feedback</h3>
+           </div>
+            <div class="col-12 col-md-9">
+                <form id="contactUs" action="https://formspree.io/f/xgeddypq" method="POST">
+                    <div class="form-group row">
+                        <label for="firstname" class="col-md-2 col-form-label">First Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="telnum" class=" col-12 col-md-2 col-form-label">Contact Tel.</label>
+                        <div class="col-10 col-md-10">
+                            <input type="text" class="form-control" id="telnum" name="phone" placeholder="Phone Number">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="emailid" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-md-10">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-6 offset-md-2">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
+                                <label class="form-check-label" for="approve">
+                                    <strong>May we contact you?</strong>
+                                </label>
+                            </div>
+                        </div> 
+                        <div class="col-md-3 offset-md-1">
+                            <select class="form-control" name="contact-method">
+                                <option>Whatsapp</option>
+                                <option>Email</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="feedback" class="col-md-2 col-form-label">Your feedback</label>
+                        <div class="col-md-10">
+                            <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
+                        </div>
+                    </div>
+                    <div class="row offset-md-2 text-danger" id="my-form-status"></div>
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-warning">
+                                Send Feedback
+                            </button>
+                        </div> 
+                    </div>
+                </form>
+            </div>
+       </div>
+    </div>
+
+    <footer class="footer">
+        <div class = "container">
+            <div class = "row">             
+                <div class = "col-4 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class = "list-unstyled">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./fame.html">Hall of Fame</a></li>
+                        <li><a href="./past_results.html">Past Results</a></li>
+                        <li><a href="./contactus.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class = "col-7 col-sm-5">
+                    <h5>Mailing Address</h5>
+                    <address>
+                      Mailbox 33, Students' Union Offices, LG5, Academic Building, <br>
+                      HKUST, Clear Water Bay, Kowloon, <br>
+                      Hong Kong SAR <br>
+                     <i class="fa fa-phone fa-lg"></i> Alex : +852 5228 0034<br>
+                      <i class="fa fa-phone fa-lg"></i> Ella : +852 5533 7433<br>
+                      <i class="fa fa-envelope fa-lg"></i> <a href="mailto:su_row@ust.hk">su_row@ust.hk</a>
+                   </address>
+                </div>
+                <div class = "col-12 col-sm-4 align-self-center">
+                    <div class = "text-center">
+                        <a class="btn btn-social-icon btn-instagram" style="background-color: #ac2bac;" href="https://www.instagram.com/hkustrowing/"><i class="fa fa-instagram fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/hkustrow"><i class="fa fa-facebook fa-lg"></i></a>
+                    </div>
+                </div>
+           </div>
+           <div class = "row justify-content-center">             
+                <div class= "col-auto">
+                    <p>Special thanks to Clare and Samson for making this website <br>
+                    © Copyright 2022 Rowing Club, HKUSTSU</p>
+                </div>
+           </div>
+        </div>
+    </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="../node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../js/scripts.js"></script>
+    <script>
+        var formContact = document.getElementById("contactUs");
+        async function handleSubmit(event) {
+        event.preventDefault();
+        var status = document.getElementById("my-form-status");
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+            method: formContact.method,
+            body: data,
+            headers: {
+                'Accept': 'application/json'
+            }
+        }).then(response => {
+            if (response.ok) {
+            status.innerHTML = "Thanks for your submission!";
+            formContact.reset()
+            } else {
+            response.json().then(data => {
+                if (Object.hasOwn(data, 'errors')) {
+                status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+                } else {
+                status.innerHTML = "Oops! There was a problem submitting your form"
+                }
+            })
+            }
+            }).catch(error => {
+                status.innerHTML = "Oops! There was a problem submitting your form"
+            });
+        }
+        formContact.addEventListener("submit", handleSubmit);
+    </script>
+</body>
+
+</html>

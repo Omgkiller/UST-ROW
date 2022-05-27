@@ -1,0 +1,183 @@
+html{
+  scroll-behavior: smooth;
+}
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px; }
+
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px; }
+
+.footer {
+  background-color: #00008B;
+  color: white;
+  margin: 0px auto;
+  padding: 20px 0px; }
+.footer address{
+  color: white;
+}
+
+
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f; }
+
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0; 
+  background-color: white;
+}
+
+.navbar-dark {
+  background-color: #0096FF; }
+
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px; }
+
+.modal .modal-header {
+  background: #00008B;
+  color: #fffaf0; }
+  .modal .modal-header button {
+    color: #fffaf0; }
+
+.modal .modal-body {
+  background: #00008B; }
+
+.card, .card .carousel .carousel-item{
+  background-color: lightskyblue;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin: 0 auto;
+  float: none;
+  /*margin-bottom: 10px;*/
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.carousel .carousel-item {
+  background-color: white;
+  max-height: 70vh;
+  margin: 0px auto;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  max-height: 65vh;
+}
+
+.carousel-caption {
+  position: relative;
+  left: 0;
+  top: 0;
+}
+#coach3jpg{
+  object-position: 50% 50%;
+}
+#adamance .carousel-caption{
+  position: absolute;
+  left: 20px;
+  text-align: left;
+}
+@media screen and (max-width:700px){
+  #adamance .carousel-item{
+    max-height: 90vh;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+  #adamance .carousel-item img{
+    max-height: 30vh;
+    width: 100vh;
+  }
+  #adamance .carousel-caption{
+    top: 0;
+    font-size: 1rem;
+  }
+}
+
+#carouselButton {
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1; }
+
+.jumbotron{
+    margin: 0px auto;
+    padding: 70px 30px;
+    box-sizing: border-box;
+    background: white;
+    color: black;
+    position: relative;
+    z-index:-1;
+    overflow: hidden;
+    height: 50vh;
+}
+
+#video-background, #image-background1,#image-background2, #image-background3{ 
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity:0.5;
+  }
+#image-background1{
+  object-position: bottom;
+}
+#image-background2{
+  object-position: 50% 75%;
+}
+#image-background3{
+  object-position: 50% 5%;
+}
+
+#team_photo{
+  height: 100%;
+}
+#team_photo img{
+  object-position: 50% 75%;
+}
+#reserveButton{
+    width:20vh;
+  }
+.card .carousel, .card img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 120vh;
+  }
+
+.card .carousel-item img, .card img{
+    object-fit: cover;
+    object-position: 50% 25%;
+    max-height: 60vh;
+  }
+
+#ATIR_pic{
+  object-position: 50% 75%;
+}
+/*
+@media screen and (max-width:500px){
+  .carousel-item img {
+    object-fit: cover;
+    max-height: 60vh;
+  }
+}
+*/
